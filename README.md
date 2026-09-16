@@ -47,7 +47,7 @@ A single-page website showcasing India's AI ecosystem — from Sarvam AI's globa
 
 ```
 .
-├── face.html              # Main page — semantic markup + SEO head
+├── index.html              # Main page — semantic markup + SEO head
 ├── styles.css             # Design system + components
 ├── script.js              # Theme, panels, animations, form
 ├── logo.png               # Brand mark
@@ -68,7 +68,7 @@ No build tools, no `npm install`. Just clone and open:
 ```bash
 git clone https://github.com/<vaibhavkr473>/face-of-future-india.git
 cd face-of-future-india
-# Open face.html in any browser — that's it.
+# Open index.html in any browser — that's it.
 ```
 
 For a local server (recommended for Formspree testing):
@@ -85,7 +85,7 @@ python3 -m http.server 8000
 **Contact form** — already wired to Formspree endpoint `f/xaenyyyq`. To use your own:
 
 1. Create a free form at [formspree.io](https://formspree.io)
-2. Replace the endpoint in both `face.html` (`action=`) and `script.js` (`FORM_ENDPOINT`)
+2. Replace the endpoint in both `index.html` (`action=`) and `script.js` (`FORM_ENDPOINT`)
 3. Confirm the form via the email Formspree sends on first submission
 
 **Theme** — all colours live in `:root` and `[data-theme="dark"]` in `styles.css`. Change once, updates everywhere.
