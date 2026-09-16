@@ -332,7 +332,7 @@
         /*
           ── BACKEND INTEGRATION (uncomment when ready) ──
           
-          fetch('https://formspree.io/f/xaenyyyq', {
+          fetch('https://formspree.io/f/YOUR_FORM_ID', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
             body: JSON.stringify(payload)
@@ -340,9 +340,8 @@
           .then(r => r.ok ? r.json() : Promise.reject(r))
           .then(() => console.log('✓ Sent to server'))
           .catch(err => console.warn('✗ Server error — stored locally', err));
-        
+        */
     });
-    */
 
     /* ----------------------------------------------------------
        10. NEWSLETTER (demo handler)
