@@ -329,7 +329,7 @@
             formNote.className = 'form-note';
         }, 3200);
 
-        
+        /*
           ── BACKEND INTEGRATION (uncomment when ready) ──
           
           fetch('https://formspree.io/f/xaenyyyq', {
@@ -342,6 +342,7 @@
           .catch(err => console.warn('✗ Server error — stored locally', err));
         
     });
+    */
 
     /* ----------------------------------------------------------
        10. NEWSLETTER (demo handler)
