@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://faceoffuture.in/sitemap.xml
