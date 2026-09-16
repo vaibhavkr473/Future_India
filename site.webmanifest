@@ -1,0 +1,27 @@
+{
+    "name": "Face of Future India — AI for Innovation",
+    "short_name": "Face of Future",
+    "description": "India's AI-powered startup revolution.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFF9F0",
+    "theme_color": "#FF6B1A",
+    "icons": [
+        {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
